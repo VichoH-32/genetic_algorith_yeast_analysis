@@ -1,3 +1,6 @@
+## Utilities to aggregate and compare results stored as .RData files ##
+## Loads saved `res` objects produced by the runner, builds a table of scores
+## and computes quick statistics (medians, standard deviations) per folder.
 path = "C:\\Users\\Vichi\\Documents\\U2021\\final_runs_results\\"
 folders = c("nsga2_short", "testNew")
 df = NULL
